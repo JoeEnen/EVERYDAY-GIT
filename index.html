@@ -31,7 +31,9 @@ However, in this blog, we'll be focusing specifically on Git and GitHub, explori
 <p>Before installing git, it is important to first check whether you have it installed. To do this, you open your cmd terminal and input the code: "git --version"</p>
 <div>
     <figure>
-        <img src="./Images/Git version.JPG" alt="Git confirmation code" width="350px">
+        <img src="./Images/Git version.JPG" alt="Git confirmation code" width="800px" height="250">
+        <figcaption>Image 1: Confirming git</figcaption>
+        <br>
     </figure>
     <p>If your git is installed, you will see a git version as displayed on the figure. If it's not, please follow the following:</p>
     
@@ -58,26 +60,33 @@ However, in this blog, we'll be focusing specifically on Git and GitHub, explori
     <h3>username</h3>
 <p>git config --global user.name "your usename" </p>
 <div>
-    <figure><img src="./Images/username.JPG" alt="username" width="350px">
+    <figure><img src="./Images/username.JPG" alt="username" width="800px" height="100">
+        <figcaption>Username configuration</figcaption>
     </figure>
 </div>
 <h3>email</h3>
 <p>git config --global user.email "your email"</p>
 <div>
-    <figure><img src="./Images/email.JPG" alt="email" width="350px">
+    <figure><img src="./Images/email.JPG" alt="email" width="800px" height="100">
+        <figcaption>Email configuration</figcaption>
+        <br>
     </figure>
 </div>
 <h3>Confirm</h3>
 <p>git config --global --list</p>
 <div>
-    <figure><img src="./Images/confirm name and email.JPG" alt="confirm username and email"></figure>
+    <figure><img src="./Images/confirm name and email.JPG" alt="confirm username and email" width="800" height="200"></figure>
+    <figcaption>Confirming git configuration</figcaption>
+    <br>
 </div>
 </p>
 <h2>Initiarize a git repository</h2>
 <p>A Git repository (repo) is a storage space where your project's files, code, and history are tracked using Git. It allows developers to manage changes, collaborate, and revert to previous versions when needed. Repositories can be local (stored on your computer) or remote (hosted on platforms like GitHub). To initiarize a git repository, you input the command "git init" n cmd of git bash. To confirm initialization, write "git status" 
 </p>
 <div>
-    <figure><img src="./Images/git init.JPG" alt="git repository" width="350px"></figure>
+    <figure><img src="./Images/git init.JPG" alt="git repository" width="800px" height="300"></figure>
+    <figcaption>Initializing a repository</figcaption>
+    <br>
 </div>
 <h2>Staging Area</h2>
 <p>
@@ -92,7 +101,9 @@ However, in this blog, we'll be focusing specifically on Git and GitHub, explori
     Verify whether the files have been added by running the code "git status"
 </p>
 <div>
-    <figure><img src="./Images/add files.JPG" alt="add files" width="350px"></figure>
+    <figure><img src="./Images/add files.JPG" alt="add files" width="800px" height="150"></figure>
+    <figcaption>Adding files</figcaption>
+    <br>
 </div>
 <h2>Commiting Changes</h2>
 <p>
@@ -105,7 +116,9 @@ However, in this blog, we'll be focusing specifically on Git and GitHub, explori
         <li>Provide context if necessary.</li>
     </ol>
     <div>
-        <figure><img src="./Images/Commit.JPG" alt="commit" width="350px"></figure>
+        <figure><img src="./Images/Commit.JPG" alt="commit" width="800px" height="70px"></figure>
+        <figcaption>Committing</figcaption>
+        <br>
     </div>
     To view past commit, use the code "git log" or "git log --oneline".
     To revert a previouscommit, use code "git checkout commit id".
@@ -128,5 +141,26 @@ However, in this blog, we'll be focusing specifically on Git and GitHub, explori
 <p>
     Now that you've mastered the basics of Git, the next step is learning how to collaborate using GitHub. Start by pushing your local branches to a remote repository, creating pull requests, and handling merge conflicts. You can also explore Git workflows, such as GitFlow, to streamline team collaboration. Additionally, learning about rebasing and interactive rebase will help you maintain a clean commit history. If you're interested in automation, check out GitHub Actions for CI/CD. Keep practicing by contributing to open-source projects on GitHub.
 </p>
+<hr>
+<br>
+<h2>Subscribe to our Newsletter</h2>
+<form action="">
+    <div>
+        <label for="fn">First name</label>
+        <input type="text" id="fn" placeholder="eg. Joe" required>
+    </div>
+    <br>
+    <div>
+        <label for="ln">Last Name</label>
+        <input type="text" id="ln" placeholder="eg. Ndungu" required>
+    </div>
+    <br>
+    <div>
+        <label for="email">Email</label>
+        <input type="text" id="fn" placeholder="eg. jndungu254@gmail.com" required>
+    </div>
+    <br>
+    <button>Subscribe</button>
+</form>
 </body>
 </html>
