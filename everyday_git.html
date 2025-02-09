@@ -11,7 +11,7 @@
     <h2>What is Git?</h2>
     <h3> Definition of git</h3>
     <p>
-    Git is a Version Control System (VCS) that helps developers track changes, collaborate efficiently, and manage project history. It allows multiple people to work on the same code without overwriting each other’s work. Even if you’re coding solo, Git acts as a safety net, letting you revert to previous versions if needed.
+    Git is a Version Control System (VCS) that helps developers track changes, collaborate efficiently, and manage project history. It allows multiple people to work on the same code without overwriting each other's work. Even if you're coding solo, Git acts as a safety net, letting you revert to previous versions if needed.
     </p>
 <h3>What is are version control systems?</h3>
 <p>
@@ -19,13 +19,13 @@ Version Control Systems are tools that tracks changes in files over time. They a
 </p>
 <h4>Other Version control systems</h4>
 <ol>
-    <li>Apache Subversion (SVN) – An older but still used centralized VCS.</li>
-    <li>Mercurial – Similar to Git but with a simpler interface.</li>
-    <li>Perforce – Popular in enterprise environments, especially for game development.</li>
-    <li>Bazaar – Another distributed VCS with an emphasis on user-friendly workflows.</li>
+    <li>Apache Subversion (SVN) - An older but still used centralized VCS.</li>
+    <li>Mercurial - Similar to Git but with a simpler interface.</li>
+    <li>Perforce - Popular in enterprise environments, especially for game development.</li>
+    <li>Bazaar - Another distributed VCS with an emphasis on user-friendly workflows.</li>
 </ol>
 <p>
-However, in this blog, we’ll be focusing specifically on Git and GitHub, exploring how they revolutionize collaboration and workflow management.
+However, in this blog, we'll be focusing specifically on Git and GitHub, exploring how they revolutionize collaboration and workflow management.
 </p>
 <h2>Git Installation</h2>
 <p>Before installing git, it is important to first check whether you have it installed. To do this, you open your cmd terminal and input the code: "git --version"</p>
@@ -72,14 +72,14 @@ However, in this blog, we’ll be focusing specifically on Git and GitHub, explo
 </div>
 </p>
 <h2>Initiarize a git repository</h2>
-<p>A Git repository (repo) is a storage space where your project’s files, code, and history are tracked using Git. It allows developers to manage changes, collaborate, and revert to previous versions when needed. Repositories can be local (stored on your computer) or remote (hosted on platforms like GitHub). To initiarize a git repository, you input the command "git init" n cmd of git bash. To confirm initialization, write "git status" 
+<p>A Git repository (repo) is a storage space where your project's files, code, and history are tracked using Git. It allows developers to manage changes, collaborate, and revert to previous versions when needed. Repositories can be local (stored on your computer) or remote (hosted on platforms like GitHub). To initiarize a git repository, you input the command "git init" n cmd of git bash. To confirm initialization, write "git status" 
 </p>
 <div>
     <figure><img src="./Images/git init.JPG" alt="git repository"></figure>
 </div>
 <h2>Staging Area</h2>
 <p>
-    The staging area in Git acts as a middle ground between your working directory and your repository. When you modify a file, Git doesn’t automatically track the changes. Instead, you need to stage the changes before committing them. It can have either tracked and untracked files.
+    The staging area in Git acts as a middle ground between your working directory and your repository. When you modify a file, Git doesn't automatically track the changes. Instead, you need to stage the changes before committing them. It can have either tracked and untracked files.
     <ol>
         <li>Tracked Files: Files that Git is actively monitoring. These can be unmodified, modified, or staged.</li>
         <li>Untracked Files: New files that Git is not yet monitoring. You need to add them to the staging area for Git to track them.</li>
@@ -94,7 +94,7 @@ However, in this blog, we’ll be focusing specifically on Git and GitHub, explo
 </div>
 <h2>Commiting Changes</h2>
 <p>
-    Once you’ve added files to the staging area, the next step is to commit them. A commit in Git is like saving a snapshot of your project at a particular moment. It records what has changed and allows you to track progress over time.
+    Once you've added files to the staging area, the next step is to commit them. A commit in Git is like saving a snapshot of your project at a particular moment. It records what has changed and allows you to track progress over time.
     To commit changes, you use the command: git commit -m "message".
     Your commit message should:
     <ol>

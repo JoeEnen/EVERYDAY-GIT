@@ -1,1 +1,2 @@
 "# Everyday-Git" 
+"# EVERYDAY-GIT" 
